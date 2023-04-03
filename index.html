@@ -2,78 +2,84 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="assets/css/reset.css" />
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
         <link rel="stylesheet" href="assets/css/style.css" />
-        <title>Sarah's Portfolio</title>
+        <title>Port 2</title>
     </head>
 </html>
 
 <body>
-    <header id="home">
-        <h1>Hello! My name is Sarah.  I'm not a full stack developer ......yet!!! (I'm trying &#128547)</h1> 
-        <ul class="sample-background">
-            <p><strong>SKILLS</strong>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>(soon: back end stuff)</li>
-            </p>
-        </ul>
+    <header>
+        <section class="skills">
+            <h1>Sarah</h1>
+            <h2><strong>SKILLS</strong></h2>
+            <p class="skillsBorder">HTML</p>
+            <p class="skillsBorder">CSS</p>
+            <p class="skillsBorder">Javascript</p>
+            <p class="skillsBorder">TBD</p>
+            <p class="skillsBorder">TBD</p>
+            <p class="skillsBorder">TBD</p>
+            <p class="skillsBorder">TBD</p>
+            <p class="skillsBorder">TBD</p>
+        </section>
     </header>
 
-    <nav>
-        <section> 
-            <h3>JUNIOR FULL STACK DEVELOPER</h3>
-        </section>
-        <section class="links">
-            <a href="#home" alt="link directs to home section">HOME</a>
-            <a href="#aboutme" alt="link directs to about me section">ABOUT ME</a>
-            <a href="#portfolio" alt="link directs to the portfolio section">PORTFOLIO</a>
-            <a href="#resume" alt="link directs to the resume section">RESUME</a>
-            <a href="#contacts" alt="link directs to the contacts section">CONTACTS</a>
-        </section>
+    <nav class="nav">
+        <a href="#aboutMe" alt="link to aboutMe section">About Me</a>
+        <a href="#portfolio" alt="link to first portfolio section">Portfolio</a>
+        <a href="#contact" alt="link to the contact section">Contact</a>
     </nav>
-<!--thinking about putting some kind of imagery here to just give a banner divide so when you click on the nav bar it jumps more-->
-    <div>
-        <p>Maybe put some kind of banner or border line here? </p>
-    </div>
 
-    <Main> 
-        <section id="aboutme">
-            <aside class="aboutMe">
+    <main>
+        <section id="aboutMe" class="aboutme">
+            <div>
                 <h2>About Me</h2>
-                <img class=img src="assets/images/sample.jpg" alt="image of person" />
-                <p>This section talks a little about myself and my background, my experiences etc etc.
-                </p>
-            </aside>
+            </div>
+            <div>
+            <img id="profile" src="assets/images/sample.jpg" alt="placeholder image for profile pic"/>
+            </div>  
+            <div>
+                <h3>This section tells a little bit about myself, maybe display some hobbies or interest, maybe some interesting fun fact about myself. </h3>
+            </div>
         </section>
 
         <section id="portfolio">
-            <h2>PORTFOLIO</h2>     
-            <p>here's my portfolio?? or do I sync up another page or do I just list links here??</p>
+            <h2>Portfolio</h2>
+                <section class="sections">
+                    <a href="https://minutemin.github.io/homework-01-Refactoring/" alt="link to my first homework assignment on git pages"><h3>Refracting Code Project 1</h3></a>
+                    <img src="assets/images/hmwk1Horizen.png" alt="screenshot of project 1"/>
+                </section>
+                
+                <section class="sections">
+                    <div>
+                        <a href="www.google.com" alt="link to project 2">Project 2</a>
+                        <img class="image" src="assets/images/portfolioss.jpg" alt="screenshot of project 2"/>
+                    </div>
+                    <div>
+                        <a href="www.google.com" alt="link to project 3">Project 3</a>
+                    <img class="image" src="assets/images/portfolioss.jpg" alt="screenshot of project 3"/>
+                    </div>
+                    <div>
+                        <a href="www.google.com" alt="link to project 4">Project 4</a>
+                    <img class="image" src="assets/images/portfolioss.jpg" alt="screenshot of project 3"/>
+                    </div>
+                    <div>
+                        <a href="www.google.com" alt="link to project 3">Project 5</a>
+                    <img class="image" src="assets/images/portfolioss.jpg" alt="screenshot of project 5"/>
+                    </div>
+                </section>
         </section>
 
-        <section id="resume">
-            <h2>RESUME</h2>
-            <p>Nothing in my resume has any kind of coding skills, only that I worked in metadata for 3 years at a start up 10 years ago, haha</p>
-            <ul>
-                <li>DELANO NURSERY - Wholesale Nursery Manager</li>
-                <li>WATCHWITH INC. - Time-based Metadata Manager</li>
-            </ul>
+    
+        <section id="contact" class="nav">
+                <a href="http://www.gmail.com" alt="link to email account">Email</a>
+                <a href="http://www.linkedIn.com" alt="link to resume on linkedin">LinkedIn</a>
+                <a href="http://www.instagram.com" alt="link to resume on instagram">Instagram</a>
+                <a href="http://www.google.com" alt="link to resume on github">GitHub</a>
         </section>
-
-        <section id="contacts">
-            <h3>Contact me at</h3>
-                <ul>
-                    <li><a href="email">sarahfake@mail.com</a></li>
-                    <li><a href="linkhere">LinkedIN</a></li>
-                    <li><a href="email">Email</a></li>
-                </ul>
-        </section>
-    </Main>
-            
-<!--want to add hover and focus and such psuedo classes-->
-
-
+    </main>
 </body>
+
+<footer>
+    <p>Footer section: Here would be where I add any kind of rights or copywrites?</p>
+</footer>
