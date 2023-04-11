@@ -6,7 +6,7 @@ GitHub: https://github.com/minutemin/homework-02-portfolio
 
 GitPages:   https://minutemin.github.io/homework-02-portfolio/
 
-![screen shot of portfolio](./assets/images/portfolioss.jpg)
+![screen shot of portfolio](./assets/images/SS-port.png)
 
 ## Description ##
 
