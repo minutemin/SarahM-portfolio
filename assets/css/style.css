@@ -81,7 +81,7 @@ footer {
     background-color: rgb(129, 70, 19);
 }
 
-.portSec {
+.portSection {
     display: flex;
     justify-content: space-evenly;
     margin: 50px;
@@ -108,28 +108,27 @@ footer {
 /*for tablet size*/
 
 @media screen and (max-width: 992px) {
-   header { 
-    display: flex;
-    flex-direction: column;
-    height: 500px
-    padding: 20px;
-    background-color: rgba(42, 82, 227, 0.746);
-    color: var(--color);
-    border-radius: 20px;
-}
+    header { 
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        padding: 20px;
+        background-color: rgba(42, 82, 227, 0.746);
+        color: var(--color);
+        border-radius: 20px;
+    }
     h1 {
         font-size: 40px;
     }
   }
 /* for large smartphones*/
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .nav {
         display: flex;
         align-items: center;
         background-color: #bb8588;
         flex-direction: column;
     }
-    
     .skill {
         display: flex;
         flex-wrap: wrap;
@@ -146,19 +145,5 @@ footer {
     main {
         background-color: #8ac4ff;
     }
-
-    .portSec {
-        display: flex;
-        flex-direction: column;
-        margin: 50px;
-}
-    .aboutme {
-        display: flex;
-        flex-direction: column;
-        margin: 100px;
-        padding: 40px;
-        border-radius: 20px;
-        background-color: antiquewhite;
-}
 
   }
