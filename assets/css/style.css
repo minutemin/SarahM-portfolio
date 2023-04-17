@@ -24,7 +24,7 @@ header {
 
 h1 {
     display: flex;
-    font-size: 75px;
+    font-size: 4rem;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 400;
     padding: 20px;
@@ -111,14 +111,14 @@ footer {
     header { 
         display: flex;
         flex-direction: column;
-        height: 500px;
+        height: 100px;
         padding: 20px;
         background-color: rgba(42, 82, 227, 0.746);
         color: var(--color);
         border-radius: 20px;
     }
     h1 {
-        font-size: 40px;
+        font-size: 2rem;
     }
   }
 /* for large smartphones*/
