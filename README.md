@@ -2,9 +2,9 @@
 
 Advanced CSS Challenge: Professional Portfolio
 
-GitHub: https://github.com/minutemin/homework-02-portfolio
+GitHub: https://github.com/minutemin/SarahM-portfolio
 
-GitPages:   https://minutemin.github.io/homework-02-portfolio/
+GitPages:   https://minutemin.github.io/SarahM-portfolio/
 
 ![screen shot of portfolio](./assets/images/SS-port.png)
 
